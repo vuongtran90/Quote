@@ -1,0 +1,8 @@
+/**
+* Css loader
+*/
+
+@import url("common.css");
+@import url("application.css");
+@import url("css/font.css");
+@import url("css/pages/home.css");
