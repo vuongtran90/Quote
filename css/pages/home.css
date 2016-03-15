@@ -1,0 +1,279 @@
+/* background: #f26c63;*/
+/* background: #F39C9C*/
+/* background: #6AC1B8;*/
+
+/*------------------------------------*\
+    LOADING
+\*------------------------------------*/
+
+
+.no-js #loader {
+    display: none;
+}
+.js #loader {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    display: block;
+}
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url("../../img/loading.gif") center no-repeat #fff;
+}
+.se-pre-con p {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 86%;
+    text-align: center;
+    background: url("../../img/loading_logo.png") center no-repeat;
+}
+
+
+/*------------------------------------*\
+    MAIN SECTION
+\*------------------------------------*/
+
+
+.quotesBox {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.quoteBox {
+    width: 265px;
+    padding: 15px 0 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #eaedf0;
+    background: #fff;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.quoteBox .quote {
+    padding: 0 15px;
+    font-size: 20px;
+    text-indent: 8px;
+}
+.quoteBox .author {
+    padding: 10px 15px;
+    font-weight: 400;
+}
+.quoteBox .author:before {
+    content: '-';
+    padding-right: 5px;
+}
+.sortInfo {
+    padding-top: 10px;
+    padding-left: 15px;
+    border-top: 1px solid #eaedf0;
+    overflow: hidden;
+}
+.postDate {
+    float: left;
+    width: 140px;
+    border-right: 1px solid #eaedf0;
+    ;
+}
+.like {
+    float: left;
+    width: 108px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.like i {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 0;
+    vertical-align: 1px;
+}
+.liked {
+    color: #f26c63;
+}
+.avatar {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eaedf0;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+/*------------------------------------*\
+    ASIDE
+\*------------------------------------*/
+
+.asideAnimation aside {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+aside p {
+    color: #9a9fa6;
+}
+aside ::-webkit-input-placeholder {
+     font-size: 14px;
+     font-weight: 300;
+}
+aside :-moz-placeholder {
+     font-size: 14px;
+     font-weight: 300;
+}
+aside ::-moz-placeholder {
+     font-size: 14px;
+     font-weight: 300;
+}
+aside :-ms-input-placeholder {
+     font-size: 14px;
+     font-weight: 300;
+}
+aside textarea:focus {
+    outline: none;
+}
+aside .quoteBox .author {
+    text-align: center;
+}
+aside .quoteBox .author:before {
+    content: '';
+    padding-right: 0px;
+}
+aside .quoteBox .quote {
+    font-size: 15px;
+}
+aside .quoteBox {
+    border: none;
+    width: 96%;
+    padding-bottom: 30px;
+    position: relative;
+}
+aside .commentContainer .avatar {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-top: 10px;
+}
+aside .author {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.commentContainer {
+    padding-bottom: 15px;
+}
+.commentContainer form {
+    margin: 20px;
+}
+.commentContainer textarea {
+    width: 82%;
+    max-height: 110px;
+    min-height: 62px;
+    margin-left: 10px;
+    padding: 2px 10px;
+    line-height: 28px;
+    font-family: 'Roboto';
+    resize: vertical;
+    vertical-align: 16px;
+    border-radius: 3px;
+    border: 1px solid #eaedf0;
+    color: #9a9fa6;
+}
+.commentBox {
+    position: relative;
+    margin: 15px;
+    padding: 15px 15px 30px;
+    border-radius: 3px;
+    background: #f7fbff;
+}
+.commentContent {
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.postedDate {
+    position: absolute;
+    right: 15px;
+    bottom: 1px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.moreComments {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.moreComments a {
+    font-weight: 400;
+    color: #9a9fa6;
+}
+
+
+/**
+* Avatar
+*/
+
+.saitama {
+    background-image: url("../../img/saitama.jpg");
+}
+.william {
+    background-image: url("../../img/william.jpg");
+}
+.marry {
+    background-image: url("../../img/mary.jpg");
+}
+.douma {
+    background-image: url("../../img/douma.jpg");
+}
+.karma {
+    background-image: url("../../img/karma.jpg");
+}
+.peppo {
+    background-image: url("../../img/peppo.jpg");
+}
+.minori {
+    background-image: url("../../img/minori.jpg");
+}
+.rin {
+    background-image: url("../../img/rin.jpg");
+}
+.killua {
+    background-image: url("../../img/killua.jpg");
+}
+.gajeel {
+    background-image: url("../../img/gajeel.jpg");
+}
+.mura {
+    background-image: url("../../img/mura.jpg");
+}
+.montana {
+  background-image: url("../../img/motana.jpg");
+}
+.pharos {
+    background-image: url("../../img/pharos.jpg");
+}
+.izaya {
+    background-image: url("../../img/izaya.jpg");
+}
+.shiori {
+    background-image: url("../../img/shiori.jpg");
+}
